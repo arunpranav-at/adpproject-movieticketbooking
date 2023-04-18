@@ -1,0 +1,74 @@
+/* Apply a background color to the entire page */
+body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #FF4500;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form container */
+  .container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+  }
+  
+  /* Style the form label */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the form input fields */
+  select, input[type="date"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form submit button */
+  input[type="submit"] {
+    background-color: #FF4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Change the color of the form submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #FF6347;
+  }
+  
+  /* Style the select dropdown arrows */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  select::-webkit-select-placeholder {
+    color: #999;
+  }
+  
+  select::-moz-placeholder {
+    color: #999;
+  }
+  
+  select:-ms-input-placeholder {
+    color: #999;
+  }
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Movie Ticket Booking</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Movie Ticket Booking</h1>
+	</div>
+	<div class="container">
+		<form>
+			<label for="theatre">Select Theatre:</label>
+			<select id="theatre" name="theatre">
+				<option value="amc">AMC</option>
+				<option value="regal">Regal</option>
+				<option value="cinemark">Cinemark</option>
+			</select>
+			<label for="movie">Select Movie:</label>
+			<select id="movie" name="movie">
+				<option value="avengers">Avengers: Endgame</option>
+				<option value="blackwidow">Black Widow</option>
+				<option value="junglecruise">Jungle Cruise</option>
+			</select>
+			<label for="date">Select Date:</label>
+			<input type="date" id="date" name="date">
+			<label for="time">Select Time:</label>
+			<select id="time" name="time">
+				<option value="10am">10:00 AM</option>
+				<option value="1pm">1:00 PM</option>
+				<option value="4pm">4:00 PM</option>
+				<option value="7pm">7:00 PM</option>
+			</select>
+			<input type="submit" value="Book Tickets">
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
